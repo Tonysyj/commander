@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "cli": "bin/cli.js"
   },
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Tonysyj/commander/issues"
   },
-  "homepage": "https://github.com/Tonysyj/commander#readme"
+  "homepage": "https://github.com/Tonysyj/commander#readme",
+  "dependencies": {
+    "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  }
 }
